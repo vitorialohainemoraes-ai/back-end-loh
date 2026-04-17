@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #b645af, #fda3d8);
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #a92ea1, #f6c2e0);
+            color: #f4cece;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: #d595c2;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            margin-bottom: 60px;
+        }
+        
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+            color: #000000;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .project {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project h3 {
+            margin-bottom: 8px;
+            color: #a266c0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(#f6c2e0);
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Olá eu sou a Vitória</h1>
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Formação</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Tenho 16 anos, jogo vôlei e gosto de ler
+            </p>
+        </section>
+        <section id="projetos">
+            <h2>formação</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Ensino médio</h3>
+                    <p>Estudo no colégio Elias Abrahão na turma do 2ºA de Desenvolvimento de Sistemas.
+                </div>
+                <div class="project">
+                    <h3>Cursos</h3>
+                    <p>Faço RH (Recursos Humanos) e Espanhol online.</p>
+
+                </div>
+                <div class="project">
+                    <h3>Contra-turno</h3>
+                    <p>Participo do projeto de vôlei no colégio e faço parte de um grupo de jogos online com meus amigos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <p>
+                Envie um e‑mail para: <strong>vitoria.lohaine.moraes@escola.pr.gov.br</strong>
+            </p>
+            <p>Mande uma mensagem neste telefone: +55 (41) 99913-6834</p>
+            <p>Por favor, NÃO use esses dados para mandar besteiras, desde já, agradeço.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lohayne. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
